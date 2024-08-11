@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "defaultteamchat",
+  "version": "${version}",
+  "name": "DefaultTeamChat",
+  "description": "",
+  "authors": [],
+  "contact": {
+
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/defaultteamchat/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "org.karn.defaultteamchat.DefaultTeamChat"
+    ]
+  },
+  "mixins": [
+    "defaultteamchat.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "*"
+  }
+}
